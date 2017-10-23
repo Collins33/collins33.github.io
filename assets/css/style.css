@@ -67,6 +67,10 @@ body {
     -o-overflow-scrolling: touch;
     overflow-scrolling: touch;
 }
+.porfolioImage{
+  width: 300px;
+  height: 500px;
+}
 a {
     text-decoration: none;
     -webkit-transition: all .25s ease-in-out;
