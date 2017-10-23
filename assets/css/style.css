@@ -642,6 +642,9 @@ button:focus {
     height: 16px;
     width: 16px;
 }
+.photographer{
+    font-size: 30px;
+}
 .testimonial-slider blockquote {
     border: none;
     font-size: 1em;
