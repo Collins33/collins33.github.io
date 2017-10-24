@@ -67,6 +67,7 @@ body {
     -o-overflow-scrolling: touch;
     overflow-scrolling: touch;
 }
+
 .porfolioImage{
   width: 300px;
   height: 500px;
@@ -711,6 +712,10 @@ button:focus {
 }
 .head-overlay {
     background: url(../../images/head-overlay.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
 }
 .page-head .page-title {
     font-family: 'Belgrano';
