@@ -54,23 +54,16 @@ body {
     background: #ffffff;
     font-family: 'Lato', 'Belgrano', sans-serif;
     font-size: 16px;
-    -webkit-font-smoothing: subpixel-antialiased !important;
-    -moz-font-smoothing: subpixel-antialiased !important;
-    -ms-font-smoothing: subpixel-antialiased !important;
-    -0-font-smoothing: subpixel-antialiased !important;
-    text-rendering: optimizeLegibility !important;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    -webkit-overflow-scrolling: touch;
-    -moz-overflow-scrolling: touch;
-    -ms-overflow-scrolling: touch;
-    -o-overflow-scrolling: touch;
-    overflow-scrolling: touch;
+    margin: 0;
+    padding:0;
 }
 
 .porfolioImage{
   width: 300px;
   height: 500px;
+}
+.main-slider{
+  width: 100%;
 }
 a {
     text-decoration: none;
@@ -79,6 +72,11 @@ a {
     -ms-transition: all .25s ease-in-out;
     -o-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
+}
+.container-fluid{
+padding-left: 0;
+padding-right: 0;
+
 }
 a:focus {
     text-decoration: none;
@@ -208,6 +206,9 @@ button:focus {
     box-shadow: none;
     color: #ffffff;
 }
+.description{
+  font-size: 40em;
+}
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
@@ -334,7 +335,7 @@ button:focus {
     clear: both;
 }
 .know-about-us .description {
-    font-size: .8125em;
+    font-size: 16px;
 }
 .about-top .btn {
     border: 2px solid #e74c3c;
