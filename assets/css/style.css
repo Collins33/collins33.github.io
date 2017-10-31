@@ -456,6 +456,7 @@ button:focus {
 
 .portfolio {
     background-color: #f9f9f9;
+    padding: 20px;
 }
 .portfolio-bottom .section-description {
     padding: 0px 25%;
@@ -719,6 +720,7 @@ button:focus {
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
+    width:1500px;
 }
 .page-head .page-title {
     font-family: 'Belgrano';
