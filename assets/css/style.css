@@ -59,6 +59,17 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+.overlay{
+  background:white;
+               text-align:center;
+               padding:45px 0 66px 0;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+}
+.box:hover .overlay {
+               opacity:1;}
+
 .sliderImage{
   width: 1400px;
   height: 483px;
@@ -71,6 +82,7 @@ body {
 .portfolioText{
   font-size: 25px;
   padding-top: 40%;
+  color: black;
 }
 #myCarousel{
   height: 100%
@@ -81,6 +93,9 @@ body {
 .porfolioImage{
   width: 350px;
   height: 450px;
+  margin: auto;
+
+  padding: 10px;
 }
 .main-slider{
   width: 100%;
