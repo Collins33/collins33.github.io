@@ -48,7 +48,6 @@
         <div class="hero__meta" data-reveal style="--i:4">
           <span class="chip">Nairobi, Kenya</span>
           <span class="chip">AWS Solutions Architect</span>
-          <span class="chip">Cloud-native · API-driven</span>
           <span class="chip chip--live">Open to opportunities</span>
         </div>
       </div>
@@ -81,133 +80,155 @@
     <!-- Echo -->
     <section class="section echo dark" id="echo">
       <div class="wrap">
-        <div class="echo__head">
-          <p class="eyebrow" data-reveal>The centerpiece · Echo</p>
-          <div class="wave" aria-hidden="true" data-reveal style="--i:1"></div>
-          <h2 data-reveal style="--i:2">Everyone deserves to be heard. Echo makes that <em>real</em>.</h2>
-          <p class="intro" data-reveal style="--i:3">
+        <div class="echo__head" data-reveal>
+          <p class="eyebrow">Echo</p>
+          <div class="wave" aria-hidden="true"></div>
+          <h2>Everyone deserves to be heard. Echo makes that <em>real</em>.</h2>
+          <p class="intro">
             Echo is an AI-powered speech infrastructure platform that enables people
             with non-standard speech to communicate more naturally. It creates
             personalised speech recognition models that learn an individual’s unique
             speech patterns, while also supporting underrepresented languages and
             speech varieties.
           </p>
-          <p class="intro" data-reveal style="--i:4">
-            Rather than relying on a one-size-fits-all speech recognition model,
-            Echo adapts to each person’s speech, improving recognition accuracy and
-            making communication more accessible and personalised.
-          </p>
         </div>
 
-        <!-- Story · Part 1: The engine -->
-        <div class="engine" id="engine">
-          <div class="engine__head">
-            <p class="eyebrow" data-reveal>The engine</p>
-            <h3 class="engine__title" data-reveal style="--i:1">The voices were never the problem. AI just hadn’t <em>learned them</em>.</h3>
-            <p class="engine__lead" data-reveal style="--i:2">
+        <!-- The engine -->
+        <div class="feature" id="engine">
+          <div class="feature__head" data-reveal>
+            <p class="eyebrow">The engine</p>
+            <h3 class="feature__title">The voices were never the problem. AI just hadn’t <em>learned them</em>.</h3>
+            <p class="feature__lead">
               Every person speaks differently, even with the same speech condition.
               So Echo doesn’t ask one model to understand everyone. Each person
               contributes samples of their own speech, and Echo builds a personalised
               adapter on top of a powerful base model such as Whisper.
             </p>
           </div>
-
-          <div class="steps">
-            <article class="step" data-reveal>
-              <div class="step__text">
-                <p class="step__label">Step 1</p>
+          <div class="bento">
+            <article class="card card--12 card--split" data-reveal>
+              <div>
+                <p class="card__label">Step 1</p>
                 <h4>Record in your own voice.</h4>
-                <p>
-                  A guided recording tool walks you through phrases at your own pace.
-                  Switch between Simple, Medium and Advanced levels, or add your own
-                  phrases, then record and save them.
-                </p>
+                <p>A guided recording tool walks you through phrases at your own pace. Switch between Simple, Medium and Advanced levels, or add your own phrases, then record and save them.</p>
               </div>
-              <figure class="shot">
-                <img src="images/echo-recording.png" width="376" height="868" loading="lazy"
-                     alt="Echo recording screen showing a phrase to read, difficulty levels, and a Start Recording button">
-              </figure>
+              <figure class="shot"><img src="images/echo-recording.png" width="376" height="868" loading="lazy"
+                alt="Echo recording screen showing a phrase to read, difficulty levels, and a Start Recording button"></figure>
             </article>
-
-            <article class="step step--flip" data-reveal>
-              <div class="step__text">
-                <p class="step__label">Step 2</p>
+            <article class="card card--12 card--split card--flip" data-reveal>
+              <div>
+                <p class="card__label">Step 2</p>
                 <h4>Echo builds a model that knows you.</h4>
-                <p>
-                  Once you’ve recorded, Echo automatically builds your personalised
-                  model, ready to use. Your voice journey shows each level you
-                  complete, the phrases you’ve recorded, and the languages Echo has learned.
-                </p>
+                <p>Once you’ve recorded, Echo automatically builds your personalised model, ready to use. Your voice journey shows each level you complete, the phrases you’ve recorded, and the languages Echo has learned.</p>
               </div>
-              <figure class="shot">
-                <img src="images/echo-voice-journey.png" width="376" height="868" loading="lazy"
-                     alt="Echo voice journey screen showing levels completed, phrases recorded, and the user's languages">
-              </figure>
+              <figure class="shot"><img src="images/echo-voice-journey.png" width="376" height="868" loading="lazy"
+                alt="Echo voice journey screen showing levels completed, phrases recorded, and the user’s languages"></figure>
             </article>
           </div>
         </div>
 
-        <div class="bento">
-          <article class="card card--7" data-reveal>
-            <div class="card__icon card__icon--blue">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3.5"/><path d="M7 11h3.5M13 11h4M7 15h5M14.5 15H17"/></svg>
-            </div>
-            <h3>Live captioning</h3>
-            <p>
-              Live captioning is one of the core applications of Echo. It provides
-              real-time captions of a person’s speech across phone calls, video
-              calls, live presentations, meetings, and face-to-face conversations.
+        <!-- Live captions -->
+        <div class="feature" id="captions">
+          <div class="feature__head" data-reveal>
+            <p class="eyebrow">Live captions</p>
+            <h3 class="feature__title">Speak naturally. Everyone <em>follows along</em>.</h3>
+            <p class="feature__lead">
+              Live captioning is one of Echo’s core applications: real-time captions
+              of your speech across phone calls, video calls, live presentations,
+              meetings and face-to-face conversations.
             </p>
-            <p>
-              By recognising an individual’s personalised speech patterns, Echo
-              converts speech into text in real time, allowing communication
-              partners to follow what is being said without requiring the speaker
-              to repeat themselves or rely on someone else to interpret their
-              speech.
-            </p>
-          </article>
+          </div>
+          <div class="bento">
+            <article class="card card--12" data-reveal>
+              <div>
+                <h4>One link. Everyone’s in the conversation.</h4>
+                <p>Echo turns your personalised speech into text in real time, so the people you’re talking with can follow without you repeating yourself or relying on someone else to interpret. Start a session, copy the link and send it to anyone. You can pause captions whenever you need, and viewers see the same captions and transcript as you speak.</p>
+              </div>
+              <div class="pair">
+                <figure>
+                  <div class="tile"><img src="images/echo-captions-speaker.png" width="813" height="954" loading="lazy"
+                    alt="Echo speaker view showing live captions, a shareable link with a Copy button, a transcript, and Pause captions and End session buttons"></div>
+                  <figcaption>The speaker</figcaption>
+                </figure>
+                <figure>
+                  <div class="tile"><img src="images/echo-captions-viewer.png" width="891" height="940" loading="lazy"
+                    alt="Echo viewer page showing the same live captions and transcript, opened from the shared link"></div>
+                  <figcaption>The viewer</figcaption>
+                </figure>
+              </div>
+              <div class="facts">
+                <div><h5>Nothing to install</h5><p>Anyone with the link can join from their browser.</p></div>
+                <div><h5>Works with any platform</h5><p>Echo isn’t tied to one tool. Use it alongside any call, stream or conversation.</p></div>
+                <div><h5>Powered by your voice</h5><p>Captions come from the model you trained, so they follow the way you actually speak.</p></div>
+              </div>
+            </article>
+          </div>
+        </div>
 
-          <article class="card card--5" data-reveal style="--i:1">
-            <div class="card__icon card__icon--orange">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21"/></svg>
-            </div>
-            <h3>Dictation</h3>
-            <p>
-              Echo also enables people with non-standard speech to use their own
-              speech to create text and interact with digital devices more
-              naturally.
+        <!-- Dictation -->
+        <div class="feature" id="dictation">
+          <div class="feature__head" data-reveal>
+            <p class="eyebrow">Dictation</p>
+            <h3 class="feature__title">Say it in your own voice. Echo types it <em>for you</em>.</h3>
+            <p class="feature__lead">
+              For people who find typing hard, and aren’t understood by ordinary voice
+              tools, the model you trained becomes a way to write. Dictate messages,
+              emails, documents and notes with Echo, a Chrome extension that adapts to
+              you and works in the tools you already use.
             </p>
-            <p>
-              Users can dictate messages, emails, documents, notes, and other
-              content using personalised speech recognition models that adapt to
-              them rather than requiring them to adapt to conventional
-              voice-recognition systems.
-            </p>
-          </article>
+          </div>
+          <div class="bento">
+            <article class="card card--5" data-reveal>
+              <div>
+                <p class="card__label">Step 1</p>
+                <h4>Pick a language and press start.</h4>
+                <p>Open Echo from your toolbar, choose English or Swahili, and start with one click or your own keyboard shortcut.</p>
+              </div>
+              <figure class="shot"><img src="images/echo-dictation-popup.png" width="358" height="556" loading="lazy"
+                alt="Echo extension popup with language switch, personal model status, a Start recording button, and a changeable shortcut"></figure>
+            </article>
+            <article class="card card--7" data-reveal>
+              <div>
+                <p class="card__label">Step 2</p>
+                <h4>Speak. Echo does the rest.</h4>
+                <p>A small indicator shows that Echo is listening. When you stop, your personalised model processes what you said.</p>
+              </div>
+              <figure class="tile"><img src="images/echo-dictation-recording.png" width="600" height="240" loading="lazy"
+                alt="Floating Echo indicator showing English, a running timer, and a Stop button"></figure>
+              <figure class="tile"><img src="images/echo-dictation-processing.png" width="600" height="240" loading="lazy"
+                alt="Floating Echo indicator reading Processing"></figure>
+            </article>
+            <article class="card card--12" data-reveal>
+              <div>
+                <p class="card__label">Step 3</p>
+                <h4>Your words land where you are.</h4>
+                <p>The transcript is formatted and placed straight into the field you’re in, whether that’s a message to an AI assistant, an email or a search box. No copying and pasting.</p>
+              </div>
+              <figure class="tile"><img src="images/echo-dictation-result.png" width="1120" height="360" loading="lazy"
+                alt="A dictated sentence placed in a chat input field"></figure>
+            </article>
+          </div>
+        </div>
 
+        <!-- More applications -->
+        <div class="bento bento--end">
           <article class="card card--5" data-reveal>
             <div class="card__icon card__icon--green">
               <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.75"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.75"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.75"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.75"/></svg>
             </div>
-            <h3>AAC</h3>
-            <p>
-              Echo also powers AAC (Augmentative and Alternative Communication)
-              applications, enabling people with speech disabilities to communicate
-              through personalised text and voice.
-            </p>
+            <div>
+              <h3>AAC</h3>
+              <p>Echo also powers AAC (Augmentative and Alternative Communication) applications, enabling people with speech disabilities to communicate through personalised text and voice.</p>
+            </div>
           </article>
-
-          <article class="card card--7" data-reveal style="--i:1">
+          <article class="card card--7" data-reveal>
             <div class="card__icon card__icon--purple">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5 21 8.5 12 13.5 3 8.5 12 3.5Z"/><path d="M3 12.5l9 5 9-5"/></svg>
             </div>
-            <h3>Accessibility infrastructure</h3>
-            <p>
-              Together, these applications extend Echo beyond a traditional
-              speech-to-text system into an accessibility infrastructure that can
-              support communication across everyday, professional, educational,
-              and digital environments.
-            </p>
+            <div>
+              <h3>Accessibility infrastructure</h3>
+              <p>Together, these applications extend Echo beyond a traditional speech-to-text system into an accessibility infrastructure that can support communication across everyday, professional, educational, and digital environments.</p>
+            </div>
           </article>
         </div>
       </div>
@@ -220,24 +241,24 @@
         <article class="chapter" id="begin">
           <p class="eyebrow" data-reveal>The beginning</p>
           <div>
-            <h2 class="statement" data-reveal>I didn't grow up writing code. I <em>stumbled</em> in, and stayed.</h2>
-            <p class="prose" data-reveal style="--i:1">In 2017 I walked into Moringa School in Nairobi with no computer-science background, just curiosity. What hooked me wasn't the syntax; it was breaking an overwhelming problem into pieces small enough to solve. Eight years later, that's still why I do this.</p>
+            <h2 class="statement" data-reveal>I didn’t grow up writing code. I <em>stumbled</em> in, and stayed.</h2>
+            <p class="prose" data-reveal style="--i:1">In 2017 I walked into Moringa School in Nairobi with no computer-science background, just curiosity. What hooked me wasn’t the syntax; it was breaking an overwhelming problem into pieces small enough to solve. Eight years later, that’s still why I do this.</p>
           </div>
         </article>
 
-        <article class="chapter" id="think">
+        <article class="chapter">
           <p class="eyebrow" data-reveal>How I think</p>
           <div>
-            <h2 class="statement" data-reveal>Give me something tangled, and I'll find the <em>seams</em>.</h2>
-            <p class="prose" data-reveal style="--i:1">The code was never the hard part. The system around it is: how the pieces talk, where they fail, what happens at scale. I sit with a problem until its structure shows, then design the architecture that makes everything after it feel inevitable. That's why "solutions architect" fits.</p>
+            <h2 class="statement" data-reveal>Give me something tangled, and I’ll find the <em>seams</em>.</h2>
+            <p class="prose" data-reveal style="--i:1">The code was never the hard part. The system around it is: how the pieces talk, where they fail, what happens at scale. I sit with a problem until its structure shows, then design the architecture that makes everything after it feel inevitable. That’s why “solutions architect” fits.</p>
           </div>
         </article>
 
-        <article class="chapter" id="why">
+        <article class="chapter">
           <p class="eyebrow" data-reveal>Why I build</p>
           <div>
             <h2 class="statement" data-reveal>A system is only as good as the <em>person</em> it reaches.</h2>
-            <p class="prose" data-reveal style="--i:1">Software that only impresses other engineers has never moved me. What does is a real person's day getting easier. Every metric I'm proud of is a proxy for that: someone, somewhere, had a better day because the system worked.</p>
+            <p class="prose" data-reveal style="--i:1">Software that only impresses other engineers has never moved me. What does is a real person’s day getting easier. Every metric I’m proud of is a proxy for that: someone, somewhere, had a better day because the system worked.</p>
           </div>
         </article>
 
@@ -279,10 +300,10 @@
             <p class="work__yr">2026–present</p>
           </div>
           <div class="work__body">
-            <p class="work__lead">Lead engineer on Echo (above): the personalized speech engine, and the communication tools now being built on top of it.</p>
+            <p class="work__lead">Lead engineer on Echo (above): the personalised speech engine, and the communication tools now being built on top of it.</p>
             <ul>
               <li>Architected an end-to-end ASR fine-tuning pipeline on OpenAI Whisper, trained on non-standard Kenyan speech.</li>
-              <li>Built a personalized fine-tuning workflow so each user can train a model on their own voice.</li>
+              <li>Built a personalised fine-tuning workflow so each user can train a model on their own voice.</li>
               <li>Own the full stack: model training, FastAPI backend, React frontend, and deployment on AWS and Modal.</li>
             </ul>
             <div class="tags" aria-label="Technologies"><span>Whisper</span><span>Chatterbox</span><span>FastAPI</span><span>React</span><span>AWS</span><span>Modal</span></div>
@@ -334,7 +355,7 @@
       <div class="wrap">
         <p class="eyebrow" data-reveal>Still learning</p>
         <h2 class="statement" data-reveal style="--i:1">Putting rigorous <em>theory</em> under hard-won intuition.</h2>
-        <p class="prose" data-reveal style="--i:2">After eight years of building, I'm studying for a BSc in Mathematics and Computing at The Open University of Kenya: the theory catching up to the practice.</p>
+        <p class="prose" data-reveal style="--i:2">After eight years of building, I’m studying for a BSc in Mathematics and Computing at The Open University of Kenya: the theory catching up to the practice.</p>
 
         <div class="creds">
           <div class="cred" data-reveal>
@@ -361,7 +382,7 @@
     <section class="section contact dark" id="contact">
       <div class="wrap">
         <p class="eyebrow" data-reveal>Enquiries</p>
-        <h2 data-reveal style="--i:1">Have a system worth <em>building</em>? Let's talk.</h2>
+        <h2 data-reveal style="--i:1">Have a system worth <em>building</em>? Let’s talk.</h2>
         <div class="contact__actions" data-reveal style="--i:2">
           <a class="btn btn--primary" href="mailto:collinsnjau39@gmail.com">collinsnjau39@gmail.com</a>
           <a class="btn btn--outline" href="https://github.com/Collins33" target="_blank" rel="noopener">GitHub</a>
