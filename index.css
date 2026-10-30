@@ -451,3 +451,50 @@ body.nav-open .nav-toggle__bar:nth-child(2){top:calc(50% - .75px);transform:rota
   .js [data-reveal]{opacity:1;transform:none}
   .wave span{animation:none;transform:scaleY(.8)}
 }
+/* ---------- Echo story · Part 1: The engine ----------
+   Append to the end of index.css (before the responsive blocks is fine too).
+   Reuses existing tokens only: no new colors, no gradients. */
+.engine{margin-top:clamp(4rem,9vw,7rem)}
+.engine__head{text-align:center}
+.engine__title{
+  max-width:18ch;margin:1.1rem auto 0;
+  font-size:clamp(2rem,4.8vw,3.5rem);font-weight:600;
+  letter-spacing:-.03em;line-height:1.1;text-wrap:balance;
+}
+.engine__title em{color:var(--blue-dark)}
+.engine__lead{
+  max-width:34em;margin:1.5rem auto 0;
+  font-size:clamp(1.1rem,1.9vw,1.3125rem);line-height:1.45;letter-spacing:-.014em;
+  color:var(--ink-dark-2);
+}
+
+.steps{margin-top:clamp(2.5rem,6vw,4rem);display:grid;gap:20px}
+.step{
+  display:grid;grid-template-columns:1fr minmax(0,300px);
+  gap:clamp(2rem,6vw,5rem);align-items:center;
+  background:var(--card-dark);border-radius:var(--radius);
+  padding:clamp(1.75rem,4vw,3rem);
+  text-align:left;
+}
+.step--flip{grid-template-columns:minmax(0,300px) 1fr}
+.step--flip .step__text{order:2}
+.step .step__label{font-size:.9375rem;font-weight:600;color:var(--blue-dark)}
+.step h4{
+  margin:.6rem 0 1rem;
+  font-size:clamp(1.5rem,2.6vw,2rem);font-weight:600;
+  letter-spacing:-.025em;line-height:1.12;color:var(--ink-dark);
+}
+.step p{font-size:1.0625rem;line-height:1.5;color:var(--ink-dark-2);max-width:40ch}
+
+.shot{
+  width:100%;margin:0;justify-self:center;
+  border-radius:34px;overflow:hidden;
+  border:1px solid var(--line-dark);background:var(--white);
+}
+.shot img{display:block;width:100%;height:auto}
+
+@media (max-width:720px){
+  .step,.step--flip{grid-template-columns:1fr}
+  .step--flip .step__text{order:0}
+  .shot{max-width:280px}
+}
